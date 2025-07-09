@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -24,6 +25,15 @@
 
 #topo {
     grid-area: 1 / 1 / 2 / -1;
+    background-color: rgba(52, 77, 160, 0.877);
+    color: white;
+}
+
+header > h1 {
+    font-size: 2em;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
 }
 
 #menu {
