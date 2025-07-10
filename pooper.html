@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo com Popper.js</title>
+  <style>
+    #tooltip {
+      background-color: #ee832c;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 14px;
+      display: none;
+      position: absolute;
+      z-index: 9999;
+    }
+
+    #botao {
+      margin: 100px;
+    }
+  </style>
+</head>
+<body>
+  <button id="botao">Passe o mouse aqui</button>
+  <div id="tooltip">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae ea accusamus tempore aut dolore facere vero assumenda, impedit distinctio placeat, totam asperiores tempora! Consectetur vero corrupti suscipit obcaecati pariatur!</div>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="script.js"></script>
+</body>
+</html>

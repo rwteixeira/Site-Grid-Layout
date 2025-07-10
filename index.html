@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Gridlayout</title>
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header class="caixa" id="topo">
-            <h1>R4 Data Center</h1>
+            <h1>R4 Data Center - Gestão de perfil de usuário</h1>
         </header>
         <nav class="caixa" id="menu">
-            Menu
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">R4 Info</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.r4.com.br/" target="_blank">Home</a>
+                        </li>
+                        
+                        
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Produtos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hospedagem de Domínio</a></li>
+                            <li><a class="dropdown-item" href="#">Colocation</a></li>
+                            <li><a class="dropdown-item" href="#">Virtualização</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Desenvolvimento de Sites</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.r4.com.br/contato.html" target="_blank">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Pesquisa</button>
+                    </form>
+                    </div>
+                </div>
+                </nav>
+
         </nav>
         <main class="caixa" id="principal">
             Principal
@@ -25,4 +63,5 @@
         </footer>
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </html>
